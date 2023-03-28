@@ -8,6 +8,7 @@
     <title>Razorpay Clone</title>
   </head>
   <body>
+    <!-- Navigation Bar -->
     <nav class="bg-deepBlue">
       <div
         class="relative w-[1080px] mx-auto flex items-center justify-between"
@@ -32,7 +33,7 @@
           <li
             class="hover:text-lightBlue text-white font-mullish py-7 cursor-pointer relative group transition-all duration-200"
           >
-            <a href="#">Banking</a>
+            <a href="#">Banking+</a>
             <div
               class="h-1 bg-lightBlue absolute bottom-0 w-full group-hover:block transition-all duration-200 hidden"
             ></div>
@@ -40,7 +41,7 @@
           <li
             class="hover:text-lightBlue text-white font-mullish py-7 cursor-pointer relative group transition-all duration-200"
           >
-            <a href="#">Corporate Card</a>
+            <a href="#">Line of Credit</a>
           </li>
           <li
             class="hover:text-lightBlue text-white font-mullish py-7 cursor-pointer relative group transition-all duration-200"
@@ -74,24 +75,61 @@
         </ul>
 
         <div class="flex gap-6">
-            <img src="./images/india-flag.svg" alt="Indian Flag" height="20px" width="28px">
-            <button class="text-white border-lightBlue border rounded-sm font-mullish text-sm font-bold py-3 px-5">
-                Log In
-            </button>
-            <button class="text-lightBlue300 border bg-white px-4 py-3 font-mullish rounded-sm hover:text-lightBlue500 transition-all duration-200 flex items-center bold text-sm ">Sign Up
-                <svg
-                viewBox="0 0 24 24"
-                focusable="false"
-                class="w-[14px] h-[14px] ml-3"
-              >
+          <img
+            src="./images/india-flag.svg"
+            alt="Indian Flag"
+            height="20px"
+            width="28px"
+          />
+          <button
+            class="text-white border-lightBlue border rounded-sm font-mullish text-sm font-bold py-3 px-5"
+          >
+            Log In
+          </button>
+          <button
+            class="text-lightBlue300 border bg-white px-4 py-3 font-mullish rounded-sm hover:text-lightBlue500 transition-all duration-200 flex items-center bold text-sm"
+          >
+            Sign Up
+            <svg
+              viewBox="0 0 24 24"
+              focusable="false"
+              class="w-[14px] h-[14px] ml-3"
+            >
               <path
-              fill="currentColor"
-              d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
-            ></path>
-          </svg>
-            </button>
+                fill="currentColor"
+                d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+              ></path>
+            </svg>
+          </button>
         </div>
       </div>
     </nav>
+    <!-- Hero Section -->
+    <section class="bg-deepBlue">
+      <div class="w-10/12 max-w-[1080px] flex flex-row mx-auto items-center gap-1">
+        /
+        <div class="space-y-7">
+          <!-- text part -->
+          <h1
+            class="text-white text-[40px] font-mullish font-bold leading-[1.2]"
+          >
+          /GMSxtWAT80?size=756x717          <div class="h-1 w-6 bg-greenLight"></div>
+          <p class="font-mullish opacity-70 text-white text-lg leading-7">
+            Accept payments from customers. Automate payouts to vendors &
+            employees. Never run out of working capital.
+          </p>
+          <button class="bg-lightBlue text-white px-[18px] py-[14px] rounded-md hover:bg-lightBlue500">Sign Up Now</button>
+          <!-- image part -->
+        </div>
+        <img
+          src="./images/hero-illustration.jpg"
+          alt=""
+          class="max-w-[680px]"
+        />
+      </div>
+      <div class="absolute left-0 right-0 w-[100.05%]">
+        <img src="./images/hero-shape.svg" alt="" class="w-full object-fill"/>
+      </div>
+    </section>
   </body>
 </html>
